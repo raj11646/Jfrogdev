@@ -80,8 +80,8 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <classifier>jdk8</classifier>
-            <version>1.8</version>
+            <classifier>jdk15</classifier>
+            <version>5.9</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
