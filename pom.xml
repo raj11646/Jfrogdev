@@ -4,6 +4,10 @@
     <groupId>sri</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+   <properties>
+            <maven.compiler.source>1.6</maven.compiler.source>
+            <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 <reporting>
     <plugins>
         <plugin>
@@ -13,10 +17,6 @@
           <configuration>
             <effort>Max</effort>
             <threshold>Low</threshold>
-          <properties>
-            <maven.compiler.source>1.6</maven.compiler.source>
-            <maven.compiler.target>1.6</maven.compiler.target>
-           </properties>
           </configuration>
       </plugin>
   </plugins>
