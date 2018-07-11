@@ -24,7 +24,7 @@
           <configuration>
             <formats>
                 <format>html</format>
-                <format>xml</xml>
+                <format>xml</format>
               </formats>
             <effort>Max</effort>
             <threshold>Low</threshold>
