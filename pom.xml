@@ -22,6 +22,10 @@
           <artifactId>findbugs-maven-plugin</artifactId>
           <version>3.0.4</version>
           <configuration>
+            <formats>
+                <format>html</format>
+                <format>xml</xml>
+              </formats>
             <effort>Max</effort>
             <threshold>Low</threshold>
           </configuration>
