@@ -9,16 +9,14 @@
     <properties>
             <maven.compiler.source>1.6</maven.compiler.source>
             <maven.compiler.target>1.6</maven.compiler.target>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
   </properties>
     <modules>
         <module>multi1</module>
         <module>multi2</module>
         <module>multi3</module>
     </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         <dependency>
