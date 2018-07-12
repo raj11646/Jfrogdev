@@ -6,7 +6,10 @@
     <version>3.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
-
+    <properties>
+            <maven.compiler.source>1.6</maven.compiler.source>
+            <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
     <modules>
         <module>multi1</module>
         <module>multi2</module>
